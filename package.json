@@ -1,0 +1,29 @@
+{
+  "name": "postlight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "webpack -w & nodemon main.js -e html,js,css --ignore public",
+    "start": "node main"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.1",
+    "express": "^4.16.4",
+    "materialize-css": "^1.0.0-rc.2",
+    "nodemon": "^1.18.5",
+    "pg": "^7.6.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-redux": "^5.1.0",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "sequelize": "^4.41.0",
+    "volleyball": "^1.5.1",
+    "webpack": "^4.23.1"
+  }
+}
